@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>W3-The Band</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.css">
 </head>
 <body>
@@ -18,7 +19,7 @@
                 <li><a href="#tour">Tour</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
-                    <a href="">
+                    <a href="#">
                         More
                         <i class="nav-arrow-down fa-solid fa-caret-down"></i>
                     </a>
@@ -31,12 +32,15 @@
             </ul>
             <!-- End: Nav -->
 
-            <!-- Begin: Search button -->
+            <!-- Begin: mobile button -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon fa-solid fa-bars"></i>
+            </div>
+
+            <!-- Begin: search button -->
             <div class="search-btn">
                 <i class="search-icon fa-solid fa-magnifying-glass"></i>
             </div>
-            <!-- End: Search button -->
-
         </div>
 
         <div id="slider">
@@ -53,17 +57,17 @@
                 <p class="section-sub-heading">We love music</p>
                 <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div class="row members-list">
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/member/member1.jpg" alt="Name" class="member-img">
                     </div>
 
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/member/member1.jpg" alt="Name" class="member-img">
                     </div>
 
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/member/member1.jpg" alt="Name" class="member-img">
                     </div>
@@ -84,33 +88,33 @@
 
                     <!-- Places -->
                     <div class="row places-list">
-                        <div class="col col-third ">
+                        <div class="col col-third s-col-full mt-16 ">
                             <img src="./assets/img/places/place1.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
                                 <p class="place-time">Fri 27 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn js-buy-ticket s-full-width">Buy Tickets</button>
                             </div>
                         </div>
 
-                        <div class="col col-third ">
+                        <div class="col col-third s-col-full mt-16 ">
                             <img src="./assets/img/places/place2.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
                                 <p class="place-time">Sat 28 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn js-buy-ticket s-full-width">Buy Tickets</button>
                             </div>
                         </div>
 
-                         <div class="col col-third ">
+                         <div class="col col-third s-col-full mt-16 ">
                             <img src="./assets/img/places/place3.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
                                 <p class="place-time">Sun 29 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn js-buy-ticket s-full-width">Buy Tickets</button>
                             </div>
                         </div>
                     </div>
@@ -123,18 +127,18 @@
                 <p class="section-sub-heading">Fan? Drop a note!</p>
 
                 <div class="row contact-content">
-                    <div class="col col-half contact-info">
+                    <div class="col col-half s-col-full contact-info">
                         <p><i class="fa-solid fa-location-dot"></i>Chicago, US</p>
                         <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</i></p>
                         <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
                     </div>
-                    <div class="col col-half contact-form">
+                    <div class="col col-half s-col-full contact-form">
                         <form action="">
                             <div class="row">
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full">
                                     <input type="text" name="" placeholder="Name" id="" required class="form-control">
                                 </div>
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full s-mt-8">
                                     <input type="email" name="" placeholder="Email" id="" required class="form-control">
                                 </div>
                             </div>
@@ -143,7 +147,7 @@
                                     <input type="text" name="" placeholder="Message" id="" required class="form-control">
                                 </div>
                             </div>
-                            <input class="btn pull-right mt-16" type="submit" value="SEND">
+                            <input class="btn pull-right mt-16 s-full-width" type="submit" value="SEND">
                         </form>
                     </div>
                 </div>
@@ -203,6 +207,39 @@
         </div>
 
     </div>
+
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+        
+        // ĐÓNG MOWE MOBILE MENU    
+        mobileMenu.onclick = function() {
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed) {
+                header.style.height = 'auto';
+            }else {
+                header.style.height = null;
+
+            }
+        }
+
+        // Tự động đóng khi chọn menu 
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function (event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if(isParentMenu) {
+                    event.preventDefault();
+                }else {
+                    header.style.height = null;
+                }
+                
+            }
+        }
+    </script>
     
     <Script>
         const buyBtns = document.querySelectorAll('.js-buy-ticket')
